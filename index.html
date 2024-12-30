@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="dialog_boxes.js"></script>
+    <script src="variable_declaration.js"></script>
+    <script src="dynamic_content.js"></script>
+    <script src="type_checking.js"></script>
+    <script src="arrays_objects.js"></script>
+    <script src="loops.js"></script>
+    <script src="conditional_statements.js"></script>
+    <script src="functions.js"></script>
+    <script src="email_validation.js"></script>
+    <script src="mobile_validation.js"></script>
+    <script src="nested_function.js"></script>
+    <script src="switch_case.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form name="emailForm" onsubmit="return validateEmailForm()">
+        Email: <input type="email" name="email" placeholder="email">
+        <input type="submit" value="Submit">
+    </form>
+
+    <form name="mobileForm" onsubmit="return validatePhone()">
+        Mobile Number: <input type="text" name="call">
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>Click button to create a variable and display something:</p>
+    <button onclick="displayVariable()">Try it</button>
+    <p id="demo"></p>
+</body>
+</html>
